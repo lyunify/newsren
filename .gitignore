@@ -1,0 +1,24 @@
+# 本机抓取缓存，不上传
+data/
+
+# Python
+__pycache__/
+*.pyc
+
+# 编辑器和本地工具，不给协作者看
+.cursor/
+.cursorindexingignore
+.specstory/
+.superpowers/
+.DS_Store
+[Aa]gentic*.[mM][dD]
+docs/
+output/
+scripts/build_presentation.py
+.planning/
+.vscode/
+.env
+.env.*
+!.env.example
+_site/
+tmp/

@@ -1,0 +1,702 @@
+[
+  {
+    "id": "ec5b777378f642bf816a8a45842481ba",
+    "created_at": "2026-10-27T06:05:49+00:00",
+    "question": "AI in Education: An Evidence-Based Editorial Draft",
+    "context_id": "",
+    "live": false,
+    "status": "evidence_found",
+    "plan": [
+      "Reuse the original saved evidence snapshots without new retrieval.",
+      "Revise the answer and audience explanations against P1–P5; keep statistical and scope limits explicit.",
+      "Save a separate editorial draft with original-run provenance and pending human review."
+    ],
+    "steps": [
+      {
+        "tool": "saved_evidence",
+        "status": "complete",
+        "detail": "Reused unchanged snapshots from d337ef759d7146119b90687be6ae7150; no network retrieval."
+      },
+      {
+        "tool": "editorial_revision",
+        "status": "complete",
+        "detail": "AI-assisted source-support editing of answer, audience explanations and limitations; no model API call."
+      },
+      {
+        "tool": "human_review",
+        "status": "pending",
+        "detail": "Submitter must read the sources and decide whether to approve."
+      }
+    ],
+    "evidence": [
+      {
+        "id": "P1",
+        "story_id": "",
+        "title": "Generative AI without guardrails can harm learning: Evidence from high school mathematics",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/",
+        "source_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "published_at": "2025-06-25",
+        "retrieved_at": "2026-10-27T05:51:58+00:00",
+        "quote": "We performed a RCT to evaluate the impact of this tutoring program on student performance. The study took place at a large high school in Turkey during the Fall semester of the 2023–2024 academic year. This study was approved by the University of Pennsylvania IRB (#853745) and was deemed exempt under 45 CFR 46.104, category 1.¶ We conducted four 90-min sessions for about fifty 9th, 10th, and 11th-grade classes, comprising nearly 1,000 students. For each grade, our sessions collectively comprised about 15% of the math curriculum covered during the semester. Each session has three contiguous parts:",
+        "source_text": "We performed a RCT to evaluate the impact of this tutoring program on student performance. The study took place at a large high school in Turkey during the Fall semester of the 2023–2024 academic year. This study was approved by the University of Pennsylvania IRB (#853745) and was deemed exempt under 45 CFR 46.104, category 1.¶ We conducted four 90-min sessions for about fifty 9th, 10th, and 11th-grade classes, comprising nearly 1,000 students. For each grade, our sessions collectively comprised about 15% of the math curriculum covered during the semester. Each session has three contiguous parts:",
+        "span": {
+          "field": "article.article-p10",
+          "start": 0,
+          "end": 603
+        },
+        "section": "Body / Experimental Design",
+        "source_kind": "primary research article",
+        "category": "education",
+        "scope": "Original article paragraph (JATS full text)"
+      },
+      {
+        "id": "P2",
+        "story_id": "",
+        "title": "Generative AI without guardrails can harm learning: Evidence from high school mathematics",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/",
+        "source_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "published_at": "2025-06-25",
+        "retrieved_at": "2026-10-27T05:51:58+00:00",
+        "quote": "At this school, students are randomly assigned to classrooms (with the exception of honors-designated classrooms, which we exclude from our main sample). We assigned each classroom to one of three treatment arms—control, GPT Base, and GPT Tutor.# The control arm is business-as-usual, having students work through the practice problems with access to course books and notes with no devices provided. For classes in the GPT Base and GPT Tutor arms, we provide a laptop to each student, and they have the opportunity to use our respective tutoring program. A teacher and a staff member were present in each experimental class session to ensure that students did not use other applications or websites during the session. Students in the GPT arms were also shown a short instructional video introducing our tool and illustrating prompts designed to aid learning. Students are free to move between different problems during the session.",
+        "source_text": "At this school, students are randomly assigned to classrooms (with the exception of honors-designated classrooms, which we exclude from our main sample). We assigned each classroom to one of three treatment arms—control, GPT Base, and GPT Tutor.# The control arm is business-as-usual, having students work through the practice problems with access to course books and notes with no devices provided. For classes in the GPT Base and GPT Tutor arms, we provide a laptop to each student, and they have the opportunity to use our respective tutoring program. A teacher and a staff member were present in each experimental class session to ensure that students did not use other applications or websites during the session. Students in the GPT arms were also shown a short instructional video introducing our tool and illustrating prompts designed to aid learning. Students are free to move between different problems during the session.",
+        "span": {
+          "field": "article.article-p15",
+          "start": 0,
+          "end": 932
+        },
+        "section": "Body / Experimental Design",
+        "source_kind": "primary research article",
+        "category": "education",
+        "scope": "Original article paragraph (JATS full text)"
+      },
+      {
+        "id": "P3",
+        "story_id": "",
+        "title": "Generative AI without guardrails can harm learning: Evidence from high school mathematics",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/",
+        "source_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "published_at": "2025-06-25",
+        "retrieved_at": "2026-10-27T05:51:58+00:00",
+        "quote": "Finally, while our study takes a step toward understanding the potential harms of generative AI on learning, it focuses on a specific deployment context, and substantial work is needed to better understand the nature and scope of these effects. First, our study focuses on two generative AI tutors for a single topic (mathematics) deployed in a single high school in Turkey. We have objective evaluation criteria for math problems, which is unavailable in other important subjects such as writing. Our deployment was also carried out in Fall 2023, when generative AI was still very new; modes of interaction may have changed now that users are more familiar with effective uses of these tools and their shortcomings. Furthermore, both closed and open-weight models have significantly improved in performance since then. Additional studies are required to assess generalizability to other tutor designs and deployment contexts. Moreover, we focus on short-term outcomes due to limitations imposed by our partner school; studying long-term outcomes is a key direction for future research. Last, while we have performed several analyses to uncover mechanisms underlying our findings, our approach can be complemented with controlled experiments in settings where more fine-grained interventions and monitoring are possible to better understand these mechanisms.",
+        "source_text": "Finally, while our study takes a step toward understanding the potential harms of generative AI on learning, it focuses on a specific deployment context, and substantial work is needed to better understand the nature and scope of these effects. First, our study focuses on two generative AI tutors for a single topic (mathematics) deployed in a single high school in Turkey. We have objective evaluation criteria for math problems, which is unavailable in other important subjects such as writing. Our deployment was also carried out in Fall 2023, when generative AI was still very new; modes of interaction may have changed now that users are more familiar with effective uses of these tools and their shortcomings. Furthermore, both closed and open-weight models have significantly improved in performance since then. Additional studies are required to assess generalizability to other tutor designs and deployment contexts. Moreover, we focus on short-term outcomes due to limitations imposed by our partner school; studying long-term outcomes is a key direction for future research. Last, while we have performed several analyses to uncover mechanisms underlying our findings, our approach can be complemented with controlled experiments in settings where more fine-grained interventions and monitoring are possible to better understand these mechanisms.",
+        "span": {
+          "field": "article.article-p40",
+          "start": 0,
+          "end": 1358
+        },
+        "section": "Body / Discussion",
+        "source_kind": "primary research article",
+        "category": "education",
+        "scope": "Original article paragraph (JATS full text)"
+      },
+      {
+        "id": "P4",
+        "story_id": "",
+        "title": "Generative AI without guardrails can harm learning: Evidence from high school mathematics",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/",
+        "source_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "published_at": "2025-06-25",
+        "retrieved_at": "2026-10-27T05:51:58+00:00",
+        "quote": "Table 1 reports intention-to-treat estimates from this regression. We find that GPT Base and GPT Tutor substantially increased student scores in the GPT-assisted practice sessions by 0.137 and 0.361 (out of 1), respectively, relative to the control arm that only had access to textbooks (mean performance of 0.28). These results imply that GPT Base and GPT Tutor would increase performance on the assisted practice sessions by 48% and 127%, respectively, on average relative to the control arm. These results are consistent with the existing literature on the productivity effects of generative AI (7, 8). Furthermore, the gap between GPT Tutor and GPT Base illustrates the added benefits of problem-specific teacher inputs in the prompt. Specifically, GPT Base often provides incorrect answers due to hallucinations; in contrast, the prompt for GPT Tutor includes the solution along with recommended hints, which enables students to both obtain useful hints and check their answers once they have them. Our mechanism analysis in the next section provides a more detailed analysis supporting this hypothesis.",
+        "source_text": "Table 1 reports intention-to-treat estimates from this regression. We find that GPT Base and GPT Tutor substantially increased student scores in the GPT-assisted practice sessions by 0.137 and 0.361 (out of 1), respectively, relative to the control arm that only had access to textbooks (mean performance of 0.28). These results imply that GPT Base and GPT Tutor would increase performance on the assisted practice sessions by 48% and 127%, respectively, on average relative to the control arm. These results are consistent with the existing literature on the productivity effects of generative AI (7, 8). Furthermore, the gap between GPT Tutor and GPT Base illustrates the added benefits of problem-specific teacher inputs in the prompt. Specifically, GPT Base often provides incorrect answers due to hallucinations; in contrast, the prompt for GPT Tutor includes the solution along with recommended hints, which enables students to both obtain useful hints and check their answers once they have them. Our mechanism analysis in the next section provides a more detailed analysis supporting this hypothesis.",
+        "span": {
+          "field": "article.article-p20",
+          "start": 0,
+          "end": 1108
+        },
+        "section": "Body / Main Results",
+        "source_kind": "primary research article",
+        "category": "education",
+        "scope": "Original article paragraph (JATS full text)"
+      },
+      {
+        "id": "P5",
+        "story_id": "",
+        "title": "Generative AI without guardrails can harm learning: Evidence from high school mathematics",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/",
+        "source_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "published_at": "2025-06-25",
+        "retrieved_at": "2026-10-27T05:51:58+00:00",
+        "quote": "In stark contrast, in the subsequent unassisted exam, student performance in the GPT Base arm degraded by 0.054 (out of 1) relative to that of the control arm. In other words, GPT Base diminished the average control student’s performance on the unassisted exam by 17%. Student performance in the GPT Tutor arm was statistically indistinguishable from that of the control arm, and the point estimate was smaller by an order of magnitude (−0.004). The fact that students in the GPT Tutor arm performed similarly to students in the control arm on the unassisted exam may be surprising since they performed so much better on the practice problems. This difference may be partly explained by the fact that students with access to GPT Tutor during the practice session could ask it to check their answers,‡‡ whereas students in the control arm were only shown the solutions after they had already submitted their answers.",
+        "source_text": "In stark contrast, in the subsequent unassisted exam, student performance in the GPT Base arm degraded by 0.054 (out of 1) relative to that of the control arm. In other words, GPT Base diminished the average control student’s performance on the unassisted exam by 17%. Student performance in the GPT Tutor arm was statistically indistinguishable from that of the control arm, and the point estimate was smaller by an order of magnitude (−0.004). The fact that students in the GPT Tutor arm performed similarly to students in the control arm on the unassisted exam may be surprising since they performed so much better on the practice problems. This difference may be partly explained by the fact that students with access to GPT Tutor during the practice session could ask it to check their answers,‡‡ whereas students in the control arm were only shown the solutions after they had already submitted their answers.",
+        "span": {
+          "field": "article.article-p21",
+          "start": 0,
+          "end": 915
+        },
+        "section": "Body / Main Results",
+        "source_kind": "primary research article",
+        "category": "education",
+        "scope": "Original article paragraph (JATS full text)"
+      },
+      {
+        "id": "S1",
+        "story_id": "d5f8cf2b945e0198",
+        "title": "Tech Addiction Was a Problem for My Student — and Myself",
+        "url": "https://edsurge.com/news/tech-addiction-was-a-problem-for-my-student-and-myself",
+        "source_name": "EdSurge",
+        "published_at": "Wed, 14 Oct 2026 00:00:00 GMT",
+        "retrieved_at": "2026-10-27T05:22:10+00:00",
+        "quote": "Many adults might shrug and say, “Kids today are addicted to their screens,” without truly considering what that means.",
+        "span": {
+          "field": "excerpt",
+          "start": 623,
+          "end": 742
+        },
+        "source_kind": "reporting / provenance not independently established",
+        "category": "education",
+        "scope": "RSS title/excerpt snapshot"
+      },
+      {
+        "id": "S2",
+        "story_id": "b1fbb2a9a53ae920",
+        "title": "The Cost of Unchecked Assumptions: Fewer Male Teachers, More Baby Slop",
+        "url": "https://edsurge.com/news/the-cost-of-unchecked-assumptions-fewer-male-teachers-more-baby-slop",
+        "source_name": "EdSurge",
+        "published_at": "Wed, 23 Sep 2026 00:00:00 GMT",
+        "retrieved_at": "2026-10-27T05:22:10+00:00",
+        "quote": "A Shrinking Share of Male Teachers Ed Finkel spoke with men across the country about why they went into teaching, and why so many eventually leave.",
+        "span": {
+          "field": "excerpt",
+          "start": 204,
+          "end": 351
+        },
+        "source_kind": "reporting / provenance not independently established",
+        "category": "education",
+        "scope": "RSS title/excerpt snapshot"
+      }
+    ],
+    "comparisons": [],
+    "answer": [
+      {
+        "text": "In the study's assisted practice sessions, both GPT Base and GPT Tutor outperformed the control group. In the unassisted exam, GPT Base performed worse than the control group; the difference between GPT Tutor and the control group was not statistically significant. These results reflect different testing conditions. Practice scores alone cannot establish independent learning.",
+        "citations": [
+          "P4",
+          "P5"
+        ],
+        "kind": "editorial_revision"
+      },
+      {
+        "text": "The authors describe a specific deployment context: mathematics teaching in a single school, with short-term outcomes. The selected passages do not establish improvements or harms in long-term retention or transfer to unfamiliar tasks. They also do not establish a particular dependency mechanism as the confirmed cause of the results.",
+        "citations": [
+          "P3",
+          "P5"
+        ],
+        "kind": "editorial_revision"
+      }
+    ],
+    "limitations": [
+      "This is an AI-assisted editorial revision, not a new raw Claude response. The submitter must still check the sources and decide whether to approve it.",
+      "The school, subject, deployment period and tutor design limit generalization. The selected passages do not establish effects on long-term retention or transfer to unfamiliar tasks.",
+      "A difference that is not statistically significant does not establish equivalence. These passages do not confirm dependency or prompting mechanisms as causal explanations.",
+      "This draft reuses the original evidence snapshots and study-field suggestions. No full text, tables or supplementary files were retrieved again; the retained news passages do not constitute independent replication of the study.",
+      "Citation and formatting checks do not replace semantic fact-checking. Peer-review status has not been independently verified."
+    ],
+    "review": {
+      "status": "pending",
+      "note": "AI-assisted editorial draft. Awaiting the submitter's source review. The original model output is retained through the link above."
+    },
+    "metrics": {
+      "retrieval_calls": 0,
+      "articles_searched": 0,
+      "evidence_count": 7,
+      "elapsed_seconds": 0,
+      "budget_exhausted": false,
+      "model_calls": 0,
+      "inference_cost": 0
+    },
+    "synthesis": {
+      "status": "not_requested",
+      "model": ""
+    },
+    "study": {
+      "paper": {
+        "pmcid": "PMC12232635",
+        "doi": "10.1073/pnas.2422633122",
+        "title": "Generative AI without guardrails can harm learning: Evidence from high school mathematics",
+        "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+        "publication_status": "published_journal_article",
+        "peer_review_verified": false,
+        "published_at": "2025-06-25",
+        "retrieved_at": "2026-10-27T05:51:58+00:00",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/",
+        "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12232635/fullTextXML",
+        "retrieval_calls": 1
+      },
+      "fields": {
+        "population": {
+          "status": "passage_found",
+          "citations": [
+            "P1"
+          ]
+        },
+        "sample": {
+          "status": "passage_found",
+          "citations": [
+            "P1"
+          ]
+        },
+        "design": {
+          "status": "passage_found",
+          "citations": [
+            "P1"
+          ]
+        },
+        "groups": {
+          "status": "passage_found",
+          "citations": [
+            "P2"
+          ]
+        },
+        "limitations": {
+          "status": "passage_found",
+          "citations": [
+            "P3"
+          ]
+        }
+      },
+      "outcomes": {
+        "practice": {
+          "status": "measurement_passage_found",
+          "citations": [
+            "P4"
+          ]
+        },
+        "independent_test": {
+          "status": "measurement_passage_found",
+          "citations": [
+            "P5"
+          ]
+        },
+        "retention": {
+          "status": "not_established",
+          "citations": []
+        },
+        "transfer": {
+          "status": "not_established",
+          "citations": []
+        }
+      },
+      "claim_check": {
+        "status": "needs_human_review",
+        "citations": [
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "note": "Check the stated outcome separately: assisted practice, independent tests, retention and transfer are different measures."
+      },
+      "method_note": "Rule-based passage suggestions, not verified facts or a causal verdict. Missing passages do not prove the study omitted a measure; inspect the full paper."
+    },
+    "explanations": {
+      "student": [
+        {
+          "text": "Doing better on practice with AI assistance and completing an exam without AI are different outcomes. Read the two sets of results separately; they do not by themselves establish long-term mastery or the ability to solve unfamiliar problems.",
+          "citations": [
+            "P3",
+            "P4",
+            "P5"
+          ],
+          "kind": "editorial_revision"
+        }
+      ],
+      "educator": [
+        {
+          "text": "Check the tutor design, control conditions, and assisted and unassisted measures separately, preserving the distinction between GPT Base and GPT Tutor. Describe GPT Tutor's unassisted exam result as a difference that was not statistically significant, rather than proof of equivalence. Consider the study's limitations before applying the findings to another classroom.",
+          "citations": [
+            "P2",
+            "P3",
+            "P4",
+            "P5"
+          ],
+          "kind": "editorial_revision"
+        }
+      ],
+      "parent": [
+        {
+          "text": "This study took place in mathematics classes at a single school. A child doing well on practice with AI help does not by itself show that they can complete an exam independently, retain knowledge over time, or solve unfamiliar problems. Read the measured outcomes separately and consider the study's scope.",
+          "citations": [
+            "P1",
+            "P3",
+            "P4",
+            "P5"
+          ],
+          "kind": "editorial_revision"
+        }
+      ],
+      "professional": [
+        {
+          "text": "Evaluate educational tools using separate evidence for assisted practice, independent testing, long-term retention, and transfer to unfamiliar tasks. This case illustrates why these goals need separate checks. The selected quotations alone do not confirm that dependency or a particular prompting mechanism caused the learning outcomes.",
+          "citations": [
+            "P3",
+            "P4",
+            "P5"
+          ],
+          "kind": "editorial_revision"
+        }
+      ]
+    },
+    "revision": {
+      "kind": "ai_assisted_editorial",
+      "source_run_id": "d337ef759d7146119b90687be6ae7150",
+      "source_synthesis": {
+        "status": "complete",
+        "model": "claude-haiku-4-5-20251001",
+        "provider": "anthropic"
+      },
+      "note": "AI-assisted editorial draft against unchanged saved evidence; human review pending."
+    }
+  },
+  {
+    "id": "d337ef759d7146119b90687be6ae7150",
+    "created_at": "2026-10-27T05:51:56+00:00",
+    "question": "Explain this study qualitatively without numerical values. Distinguish assisted practice from unaided exams. For long-term retention and transfer to unfamiliar tasks, state only what the selected passages establish or leave unknown. Keep proposed mechanisms hypothetical and statistical uncertainty explicit.",
+    "context_id": "",
+    "live": false,
+    "status": "evidence_found",
+    "plan": [
+      "Search saved articles and retained story versions for evidence matching the question.",
+      "Retrieve the supplied DOI/PMC article through Europe PMC; locate education-study methods, outcomes and limitations.",
+      "Use saved news only; no feed retrieval was requested.",
+      "Compare quoted claims, numbers and negation; preserve differences for human review.",
+      "Return cited passages, limitations and an immutable research record."
+    ],
+    "steps": [
+      {
+        "tool": "plan",
+        "status": "complete",
+        "detail": "Goal: Explain this study qualitatively without numerical values. Distinguish assisted practice from unaided exams. For long-term retention and transfer to unfamiliar tasks, state only what the selected passages establish or leave unknown. Keep proposed mechanisms hypothetical and statistical uncertainty explicit.. Priority category: education."
+      },
+      {
+        "tool": "primary_paper",
+        "status": "complete",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12232635/fullTextXML",
+        "detail": "Read JATS full text for PMC12232635 through Europe PMC."
+      },
+      {
+        "tool": "education_study_check",
+        "status": "complete",
+        "detail": "Located candidate methods, population, sample, groups, outcomes and limitations; separated practice from independent tests, retention and transfer. Human review required."
+      },
+      {
+        "tool": "evidence_search",
+        "status": "complete",
+        "detail": "Searched 40 news articles; selected 7 cited passages including original-paper evidence when supplied."
+      },
+      {
+        "tool": "claim_comparison",
+        "status": "complete",
+        "detail": "Flagged 0 comparison candidates; no truth verdict assigned."
+      },
+      {
+        "tool": "model_synthesis",
+        "status": "complete",
+        "detail": "One bounded structured-output call; evidence and human-review state preserved."
+      }
+    ],
+    "evidence": [
+      {
+        "id": "P1",
+        "story_id": "",
+        "title": "Generative AI without guardrails can harm learning: Evidence from high school mathematics",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/",
+        "source_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "published_at": "2025-06-25",
+        "retrieved_at": "2026-10-27T05:51:58+00:00",
+        "quote": "We performed a RCT to evaluate the impact of this tutoring program on student performance. The study took place at a large high school in Turkey during the Fall semester of the 2023–2024 academic year. This study was approved by the University of Pennsylvania IRB (#853745) and was deemed exempt under 45 CFR 46.104, category 1.¶ We conducted four 90-min sessions for about fifty 9th, 10th, and 11th-grade classes, comprising nearly 1,000 students. For each grade, our sessions collectively comprised about 15% of the math curriculum covered during the semester. Each session has three contiguous parts:",
+        "source_text": "We performed a RCT to evaluate the impact of this tutoring program on student performance. The study took place at a large high school in Turkey during the Fall semester of the 2023–2024 academic year. This study was approved by the University of Pennsylvania IRB (#853745) and was deemed exempt under 45 CFR 46.104, category 1.¶ We conducted four 90-min sessions for about fifty 9th, 10th, and 11th-grade classes, comprising nearly 1,000 students. For each grade, our sessions collectively comprised about 15% of the math curriculum covered during the semester. Each session has three contiguous parts:",
+        "span": {
+          "field": "article.article-p10",
+          "start": 0,
+          "end": 603
+        },
+        "section": "Body / Experimental Design",
+        "source_kind": "primary research article",
+        "category": "education",
+        "scope": "Original article paragraph (JATS full text)"
+      },
+      {
+        "id": "P2",
+        "story_id": "",
+        "title": "Generative AI without guardrails can harm learning: Evidence from high school mathematics",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/",
+        "source_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "published_at": "2025-06-25",
+        "retrieved_at": "2026-10-27T05:51:58+00:00",
+        "quote": "At this school, students are randomly assigned to classrooms (with the exception of honors-designated classrooms, which we exclude from our main sample). We assigned each classroom to one of three treatment arms—control, GPT Base, and GPT Tutor.# The control arm is business-as-usual, having students work through the practice problems with access to course books and notes with no devices provided. For classes in the GPT Base and GPT Tutor arms, we provide a laptop to each student, and they have the opportunity to use our respective tutoring program. A teacher and a staff member were present in each experimental class session to ensure that students did not use other applications or websites during the session. Students in the GPT arms were also shown a short instructional video introducing our tool and illustrating prompts designed to aid learning. Students are free to move between different problems during the session.",
+        "source_text": "At this school, students are randomly assigned to classrooms (with the exception of honors-designated classrooms, which we exclude from our main sample). We assigned each classroom to one of three treatment arms—control, GPT Base, and GPT Tutor.# The control arm is business-as-usual, having students work through the practice problems with access to course books and notes with no devices provided. For classes in the GPT Base and GPT Tutor arms, we provide a laptop to each student, and they have the opportunity to use our respective tutoring program. A teacher and a staff member were present in each experimental class session to ensure that students did not use other applications or websites during the session. Students in the GPT arms were also shown a short instructional video introducing our tool and illustrating prompts designed to aid learning. Students are free to move between different problems during the session.",
+        "span": {
+          "field": "article.article-p15",
+          "start": 0,
+          "end": 932
+        },
+        "section": "Body / Experimental Design",
+        "source_kind": "primary research article",
+        "category": "education",
+        "scope": "Original article paragraph (JATS full text)"
+      },
+      {
+        "id": "P3",
+        "story_id": "",
+        "title": "Generative AI without guardrails can harm learning: Evidence from high school mathematics",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/",
+        "source_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "published_at": "2025-06-25",
+        "retrieved_at": "2026-10-27T05:51:58+00:00",
+        "quote": "Finally, while our study takes a step toward understanding the potential harms of generative AI on learning, it focuses on a specific deployment context, and substantial work is needed to better understand the nature and scope of these effects. First, our study focuses on two generative AI tutors for a single topic (mathematics) deployed in a single high school in Turkey. We have objective evaluation criteria for math problems, which is unavailable in other important subjects such as writing. Our deployment was also carried out in Fall 2023, when generative AI was still very new; modes of interaction may have changed now that users are more familiar with effective uses of these tools and their shortcomings. Furthermore, both closed and open-weight models have significantly improved in performance since then. Additional studies are required to assess generalizability to other tutor designs and deployment contexts. Moreover, we focus on short-term outcomes due to limitations imposed by our partner school; studying long-term outcomes is a key direction for future research. Last, while we have performed several analyses to uncover mechanisms underlying our findings, our approach can be complemented with controlled experiments in settings where more fine-grained interventions and monitoring are possible to better understand these mechanisms.",
+        "source_text": "Finally, while our study takes a step toward understanding the potential harms of generative AI on learning, it focuses on a specific deployment context, and substantial work is needed to better understand the nature and scope of these effects. First, our study focuses on two generative AI tutors for a single topic (mathematics) deployed in a single high school in Turkey. We have objective evaluation criteria for math problems, which is unavailable in other important subjects such as writing. Our deployment was also carried out in Fall 2023, when generative AI was still very new; modes of interaction may have changed now that users are more familiar with effective uses of these tools and their shortcomings. Furthermore, both closed and open-weight models have significantly improved in performance since then. Additional studies are required to assess generalizability to other tutor designs and deployment contexts. Moreover, we focus on short-term outcomes due to limitations imposed by our partner school; studying long-term outcomes is a key direction for future research. Last, while we have performed several analyses to uncover mechanisms underlying our findings, our approach can be complemented with controlled experiments in settings where more fine-grained interventions and monitoring are possible to better understand these mechanisms.",
+        "span": {
+          "field": "article.article-p40",
+          "start": 0,
+          "end": 1358
+        },
+        "section": "Body / Discussion",
+        "source_kind": "primary research article",
+        "category": "education",
+        "scope": "Original article paragraph (JATS full text)"
+      },
+      {
+        "id": "P4",
+        "story_id": "",
+        "title": "Generative AI without guardrails can harm learning: Evidence from high school mathematics",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/",
+        "source_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "published_at": "2025-06-25",
+        "retrieved_at": "2026-10-27T05:51:58+00:00",
+        "quote": "Table 1 reports intention-to-treat estimates from this regression. We find that GPT Base and GPT Tutor substantially increased student scores in the GPT-assisted practice sessions by 0.137 and 0.361 (out of 1), respectively, relative to the control arm that only had access to textbooks (mean performance of 0.28). These results imply that GPT Base and GPT Tutor would increase performance on the assisted practice sessions by 48% and 127%, respectively, on average relative to the control arm. These results are consistent with the existing literature on the productivity effects of generative AI (7, 8). Furthermore, the gap between GPT Tutor and GPT Base illustrates the added benefits of problem-specific teacher inputs in the prompt. Specifically, GPT Base often provides incorrect answers due to hallucinations; in contrast, the prompt for GPT Tutor includes the solution along with recommended hints, which enables students to both obtain useful hints and check their answers once they have them. Our mechanism analysis in the next section provides a more detailed analysis supporting this hypothesis.",
+        "source_text": "Table 1 reports intention-to-treat estimates from this regression. We find that GPT Base and GPT Tutor substantially increased student scores in the GPT-assisted practice sessions by 0.137 and 0.361 (out of 1), respectively, relative to the control arm that only had access to textbooks (mean performance of 0.28). These results imply that GPT Base and GPT Tutor would increase performance on the assisted practice sessions by 48% and 127%, respectively, on average relative to the control arm. These results are consistent with the existing literature on the productivity effects of generative AI (7, 8). Furthermore, the gap between GPT Tutor and GPT Base illustrates the added benefits of problem-specific teacher inputs in the prompt. Specifically, GPT Base often provides incorrect answers due to hallucinations; in contrast, the prompt for GPT Tutor includes the solution along with recommended hints, which enables students to both obtain useful hints and check their answers once they have them. Our mechanism analysis in the next section provides a more detailed analysis supporting this hypothesis.",
+        "span": {
+          "field": "article.article-p20",
+          "start": 0,
+          "end": 1108
+        },
+        "section": "Body / Main Results",
+        "source_kind": "primary research article",
+        "category": "education",
+        "scope": "Original article paragraph (JATS full text)"
+      },
+      {
+        "id": "P5",
+        "story_id": "",
+        "title": "Generative AI without guardrails can harm learning: Evidence from high school mathematics",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/",
+        "source_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "published_at": "2025-06-25",
+        "retrieved_at": "2026-10-27T05:51:58+00:00",
+        "quote": "In stark contrast, in the subsequent unassisted exam, student performance in the GPT Base arm degraded by 0.054 (out of 1) relative to that of the control arm. In other words, GPT Base diminished the average control student’s performance on the unassisted exam by 17%. Student performance in the GPT Tutor arm was statistically indistinguishable from that of the control arm, and the point estimate was smaller by an order of magnitude (−0.004). The fact that students in the GPT Tutor arm performed similarly to students in the control arm on the unassisted exam may be surprising since they performed so much better on the practice problems. This difference may be partly explained by the fact that students with access to GPT Tutor during the practice session could ask it to check their answers,‡‡ whereas students in the control arm were only shown the solutions after they had already submitted their answers.",
+        "source_text": "In stark contrast, in the subsequent unassisted exam, student performance in the GPT Base arm degraded by 0.054 (out of 1) relative to that of the control arm. In other words, GPT Base diminished the average control student’s performance on the unassisted exam by 17%. Student performance in the GPT Tutor arm was statistically indistinguishable from that of the control arm, and the point estimate was smaller by an order of magnitude (−0.004). The fact that students in the GPT Tutor arm performed similarly to students in the control arm on the unassisted exam may be surprising since they performed so much better on the practice problems. This difference may be partly explained by the fact that students with access to GPT Tutor during the practice session could ask it to check their answers,‡‡ whereas students in the control arm were only shown the solutions after they had already submitted their answers.",
+        "span": {
+          "field": "article.article-p21",
+          "start": 0,
+          "end": 915
+        },
+        "section": "Body / Main Results",
+        "source_kind": "primary research article",
+        "category": "education",
+        "scope": "Original article paragraph (JATS full text)"
+      },
+      {
+        "id": "S1",
+        "story_id": "d5f8cf2b945e0198",
+        "title": "Tech Addiction Was a Problem for My Student — and Myself",
+        "url": "https://edsurge.com/news/tech-addiction-was-a-problem-for-my-student-and-myself",
+        "source_name": "EdSurge",
+        "published_at": "Wed, 14 Oct 2026 00:00:00 GMT",
+        "retrieved_at": "2026-10-27T05:22:10+00:00",
+        "quote": "Many adults might shrug and say, “Kids today are addicted to their screens,” without truly considering what that means.",
+        "span": {
+          "field": "excerpt",
+          "start": 623,
+          "end": 742
+        },
+        "source_kind": "reporting / provenance not independently established",
+        "category": "education",
+        "scope": "RSS title/excerpt snapshot"
+      },
+      {
+        "id": "S2",
+        "story_id": "b1fbb2a9a53ae920",
+        "title": "The Cost of Unchecked Assumptions: Fewer Male Teachers, More Baby Slop",
+        "url": "https://edsurge.com/news/the-cost-of-unchecked-assumptions-fewer-male-teachers-more-baby-slop",
+        "source_name": "EdSurge",
+        "published_at": "Wed, 23 Sep 2026 00:00:00 GMT",
+        "retrieved_at": "2026-10-27T05:22:10+00:00",
+        "quote": "A Shrinking Share of Male Teachers Ed Finkel spoke with men across the country about why they went into teaching, and why so many eventually leave.",
+        "span": {
+          "field": "excerpt",
+          "start": 204,
+          "end": 351
+        },
+        "source_kind": "reporting / provenance not independently established",
+        "category": "education",
+        "scope": "RSS title/excerpt snapshot"
+      }
+    ],
+    "comparisons": [],
+    "answer": [
+      {
+        "text": "During assisted practice sessions, both GPT-based tutoring tools substantially boosted student performance relative to control (textbooks only). GPT Tutor showed larger gains than GPT Base, possibly because its prompts included teacher-vetted solutions and hints, whereas GPT Base sometimes provided incorrect answers due to hallucinations.",
+        "citations": [
+          "P4"
+        ],
+        "kind": "model_synthesis"
+      },
+      {
+        "text": "On a subsequent unaided exam, GPT Base performance degraded relative to control. GPT Tutor performance on the unaided exam was statistically indistinguishable from control, despite much stronger assisted practice gains. Long-term retention and transfer to unfamiliar tasks remain unknown from these passages.",
+        "citations": [
+          "P5",
+          "P3"
+        ],
+        "kind": "model_synthesis"
+      }
+    ],
+    "limitations": [
+      "Study suggestions use selected original-paper paragraphs; other news evidence is limited to RSS titles/excerpts. Tables and supplementary files were not evaluated.",
+      "Outlet diversity does not establish source independence or prove a claim correct.",
+      "Rule-based passage suggestions, not verified facts or a causal verdict. Missing passages do not prove the study omitted a measure; inspect the full paper.",
+      "Publication metadata does not independently verify peer review. The PMC copy and journal article are the same study, not independent corroboration.",
+      "Education news passages are topical context; they are not assumed to independently evaluate this study.",
+      "Study limited to one high school in Turkey and one subject (mathematics), conducted in Fall 2023 when generative AI was new.",
+      "Only short-term outcomes measured; long-term retention and transfer to unfamiliar tasks not studied due to school limitations.",
+      "Proposed mechanisms (hallucinations, answer-checking behavior) are hypothetical; the passages do not establish causality for the unaided exam performance gap.",
+      "Generalizability unclear across AI model improvements, other deployment contexts, tutor designs, and other subjects.",
+      "Statistical indistinguishability of GPT Tutor and control on unaided exam does not prove equivalence or rule out unmeasured effects.",
+      "Model citations and numbers were checked mechanically. Semantic support and source reliability still require human review."
+    ],
+    "review": {
+      "status": "pending",
+      "note": "AI-assisted technical source-support review; HUMAN REVIEW STILL PENDING. The main answer now keeps retention and unfamiliar-task transfer unknown from selected passages. Remaining audience wording to revise: student \"smarter\" should name GPT Tutor without an intelligence claim; educator \"practice did not transfer\" must refer only to the reported unaided exam, not unfamiliar tasks; professional wording cannot attribute absence of unfamiliar-task transfer measurement to school constraints from P3. Corrected summary: both tools improved reported assisted-practice performance (P4); GPT Base performed worse on the unaided exam, while GPT Tutor was statistically indistinguishable from control (P5). P3 limits the context and short-term outcomes; the selected passages do not establish a long-term retention or unfamiliar-task transfer effect. Mechanisms remain hypotheses. See docs/education-demo-review.md for the separately labelled editorial draft. No human approval or publication granted.",
+      "reviewed_at": "2026-10-27T05:53:49+00:00"
+    },
+    "metrics": {
+      "retrieval_calls": 1,
+      "articles_searched": 40,
+      "evidence_count": 7,
+      "elapsed_seconds": 11.173,
+      "budget_exhausted": false,
+      "model_calls": 1,
+      "inference_cost": null,
+      "model_usage": {
+        "input_tokens": 2622,
+        "output_tokens": 595,
+        "total_tokens": 3217
+      }
+    },
+    "synthesis": {
+      "status": "complete",
+      "model": "claude-haiku-4-5-20251001",
+      "provider": "anthropic"
+    },
+    "study": {
+      "paper": {
+        "pmcid": "PMC12232635",
+        "doi": "10.1073/pnas.2422633122",
+        "title": "Generative AI without guardrails can harm learning: Evidence from high school mathematics",
+        "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+        "publication_status": "published_journal_article",
+        "peer_review_verified": false,
+        "published_at": "2025-06-25",
+        "retrieved_at": "2026-10-27T05:51:58+00:00",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/",
+        "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12232635/fullTextXML",
+        "retrieval_calls": 1
+      },
+      "fields": {
+        "population": {
+          "status": "passage_found",
+          "citations": [
+            "P1"
+          ]
+        },
+        "sample": {
+          "status": "passage_found",
+          "citations": [
+            "P1"
+          ]
+        },
+        "design": {
+          "status": "passage_found",
+          "citations": [
+            "P1"
+          ]
+        },
+        "groups": {
+          "status": "passage_found",
+          "citations": [
+            "P2"
+          ]
+        },
+        "limitations": {
+          "status": "passage_found",
+          "citations": [
+            "P3"
+          ]
+        }
+      },
+      "outcomes": {
+        "practice": {
+          "status": "measurement_passage_found",
+          "citations": [
+            "P4"
+          ]
+        },
+        "independent_test": {
+          "status": "measurement_passage_found",
+          "citations": [
+            "P5"
+          ]
+        },
+        "retention": {
+          "status": "not_established",
+          "citations": []
+        },
+        "transfer": {
+          "status": "not_established",
+          "citations": []
+        }
+      },
+      "claim_check": {
+        "status": "needs_human_review",
+        "citations": [
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "note": "Check the stated outcome separately: assisted practice, independent tests, retention and transfer are different measures."
+      },
+      "method_note": "Rule-based passage suggestions, not verified facts or a causal verdict. Missing passages do not prove the study omitted a measure; inspect the full paper."
+    },
+    "explanations": {
+      "student": [
+        {
+          "text": "When given AI tutoring help during practice, students scored much better. But when tested without help afterward, the basic AI tool actually hurt performance, while the smarter tutored version did about the same as learning from books alone—showing that doing well with help doesn't automatically mean doing well on your own.",
+          "citations": [
+            "P4",
+            "P5"
+          ]
+        }
+      ],
+      "educator": [
+        {
+          "text": "This RCT distinguishes assisted practice (with tool access) from unaided performance (exam without tools). Enhanced practice did not transfer; GPT Base harmed exam scores, and GPT Tutor showed no significant exam gain despite large practice improvements. This suggests over-reliance on checking answers during practice may reduce independent problem-solving, though the mechanism remains hypothetical.",
+          "citations": [
+            "P4",
+            "P5"
+          ]
+        }
+      ],
+      "professional": [
+        {
+          "text": "The study evaluates a single high school in Turkey during Fall 2023 and measures only short-term outcomes (assisted sessions and a subsequent exam). Generalizability across schools, subjects, AI model versions, and user expertise is limited. Long-term retention and transfer effects were not measured due to school constraints, leaving critical questions about sustained learning impact unanswered.",
+          "citations": [
+            "P3"
+          ]
+        }
+      ]
+    }
+  }
+]
